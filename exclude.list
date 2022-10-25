@@ -21,12 +21,9 @@ lib/python*/lib-dynload/xxlimited*.so
 lib/python*/lib-dynload/_xxtestfuzz.so
 # Remove config-* directory, which is used for compiling C extension modules.
 lib/python*/config-*
-# Remove ensurepip. If user code needs pip, it can add it to
-lib/python*/ensurepip
 # Remove Tcl/Tk GUI code. We don't build against Tcl/Tk at the moment, so this
 # will not work.
 lib/python*/idlelib
-lib/python*/tkinter
 lib/python*/turtle.py
 lib/python*/turtledemo
 # Remove lib/pkgconfig files. These are used for compiling C extension modules.
